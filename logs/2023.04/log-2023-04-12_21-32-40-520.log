@@ -1,0 +1,4 @@
+2023-04-12 21:32:48.918 [main] INFO  com.ecommerce.ebay.pages.Page_ebay - dialog window opened successfully
+2023-04-12 21:32:56.182 [main] ERROR com.ecommerce.ebay.pages.Page_ebay - Error in while selecting filters
+2023-04-12 21:33:02.934 [main] INFO  com.ecommerce.ebay.pages.Page_ebay - Page loaded successfully with search results
+2023-04-12 21:33:02.995 [main] INFO  com.ecommerce.ebay.pages.Page_ebay - Search results found for the search input  MacBook

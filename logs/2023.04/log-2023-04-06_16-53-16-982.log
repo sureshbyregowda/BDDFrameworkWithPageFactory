@@ -1,0 +1,5 @@
+2023-04-06 16:53:23.238 [main] INFO  com.stores.vemo.pages.Page_Login - user navigated to login screen
+2023-04-06 16:53:24.674 [main] INFO  com.stores.vemo.pages.Page_Login - user entered email address successfully
+2023-04-06 16:53:25.993 [main] INFO  com.stores.vemo.pages.Page_Login - user entered password successfully
+2023-04-06 16:53:27.284 [main] INFO  com.stores.vemo.pages.Page_Login - user clicks on login button
+2023-04-06 16:53:33.965 [main] INFO  com.stores.vemo.pages.Page_Login - user is successfully able to login

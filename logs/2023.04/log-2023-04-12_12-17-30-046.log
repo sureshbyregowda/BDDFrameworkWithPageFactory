@@ -1,0 +1,10 @@
+2023-04-12 12:17:38.455 [main] INFO  com.ecommerce.ebay.pages.Page_Login - user navigated to login screen
+2023-04-12 12:17:39.984 [main] INFO  com.ecommerce.ebay.pages.Page_Login - user entered email address successfully
+2023-04-12 12:17:41.306 [main] INFO  com.ecommerce.ebay.pages.Page_Login - user entered password successfully
+2023-04-12 12:17:42.618 [main] INFO  com.ecommerce.ebay.pages.Page_Login - user clicks on login button
+2023-04-12 12:17:49.079 [main] INFO  com.ecommerce.ebay.pages.Page_Login - user is successfully able to login
+2023-04-12 12:17:55.594 [main] INFO  com.ecommerce.ebay.pages.Page_Login - user navigated to login screen
+2023-04-12 12:17:57.143 [main] INFO  com.ecommerce.ebay.pages.Page_Login - user entered email address successfully
+2023-04-12 12:17:58.489 [main] INFO  com.ecommerce.ebay.pages.Page_Login - user entered password successfully
+2023-04-12 12:17:59.770 [main] INFO  com.ecommerce.ebay.pages.Page_Login - user clicks on login button
+2023-04-12 12:18:06.014 [main] INFO  com.ecommerce.ebay.pages.Page_Login - user is successfully able to login
