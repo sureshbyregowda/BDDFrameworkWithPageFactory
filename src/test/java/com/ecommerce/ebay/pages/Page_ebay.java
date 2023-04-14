@@ -57,9 +57,9 @@ public class Page_ebay {
 	@FindBy(xpath="//input[@value='Worldwide']") private WebElement worldwide_chk_box;		
 	@FindBy(xpath="//button[@aria-label='Apply']") private WebElement apply_button;		
 	
-	@FindBy(xpath="//button[@aria-label='Apply']") private WebElement filter_applied_button;		
+	@FindBy(xpath="//button/span[contains(text(),'filters applied')]") private WebElement filter_applied_button;		
 	@FindBy(xpath="//li[@class='brm__aspect-item brm__aspect-item--applied']/a/span[contains(text(), 'Screen Size')]") private WebElement size_filter_applied;	
-	@FindBy(xpath="//li[@class='brm__aspect-item brm__aspect-item--applied']/a/span[contains(text(), 'Price')]']") private WebElement price_filter_applied;	
+	@FindBy(xpath="//li[@class='brm__aspect-item brm__aspect-item--applied']/a/span[contains(text(), 'Price')]") private WebElement price_filter_applied;	
 	@FindBy(xpath="//li[@class='brm__aspect-item brm__aspect-item--applied']/a/span[contains(text(), 'Item Location')]") private WebElement location_filter_applied;	
 	
 	
@@ -130,13 +130,13 @@ public class Page_ebay {
 		worldwide_chk_box.click();
 		
 		//Click Apply button
-		filter_applied_button.click();
+		apply_button.click();
 	}	
 	
 	public void Verify_filters_applied()
 	{
 		filter_applied_button.click();
-		if(size_filter_applied.isSelected() && price_filter_applied.isSelected() && location_filter_applied.isSelected())
+		if(size_filter_applied.getText().contains("Size") && price_filter_applied.getText().contains("Price") && location_filter_applied.getText().contains("Item Location"))
 		{
 			log.info("filters are selected successfully");
 		}
@@ -193,7 +193,3 @@ public class Page_ebay {
 		}
 	}	
 }
-
-
-
-
